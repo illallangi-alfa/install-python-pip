@@ -2,5 +2,6 @@
 install_python_pip_packages:
   debian: &debian
     - "python-pip"
+    - "python3-pip"
   debian_armv7l: *debian
   debian_x86_64: *debian
